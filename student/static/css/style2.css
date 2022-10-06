@@ -1,0 +1,41 @@
+.parent{
+    border:8px groove red;
+    background-color: darkcyan;
+    width: 500px;
+    height: 500px;
+    margin:auto;
+    margin-top: 100px;
+    position: absolute;
+    
+    
+}
+
+.box1{
+    border:2px groove yellow;
+    width: 500px;
+    height: 164px;
+    background-color: cadetblue;
+    
+}
+
+.box2{
+    border:2px groove yellow;
+    width: 500px;
+    height: 164px;
+    background-color: rgb(255, 0, 162);
+    position:relative;
+    /* left: 200px;
+    top: 100px; */
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    
+}
+
+
+.box3{
+    border:2px groove yellow;
+    width: 500px;
+    height: 164px;
+    background-color: chartreuse;
+}
