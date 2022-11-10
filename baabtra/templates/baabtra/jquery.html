@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            height: 200px;
+            width:250px ;
+            color: rgb(240, 239, 239);
+            background-color: blueviolet;
+             /* display: none;  */
+             position: relative;
+             padding: 20px;
+             border: 2px black solid;
+        }
+        .div1{
+            background-color: aquamarine;
+        }
+    </style>
+    <script
+  src="https://code.jquery.com/jquery-3.6.1.js"
+  integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+  crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- <ul>
+        <li>mango</li>
+        <li>apple</li>
+        <li>orange</li>
+        <li>banana</li>
+    </ul> -->
+    <p>fnfwd</p>
+    <p>vn f  fv </p>
+    <p>n v fv</p>
+    <p>fnvn</p>
+    <div >
+        <span id="sp1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate totam libero nemo dolorum autem harum odio magnam distinctio quasi rem suscipit numquam alias recusandae, est sequi ea sint. Alias, autem?</span>
+        <span id="sp2">Lorem, ipsum.</span>
+    </div>
+    <!-- <p id="p"> welcome</p>
+     <input type="text" value="jumana" >
+<script>
+    $(document).ready(function(){
+        var x = $("#p").html()
+        $("#p").html("hlooooo")
+        var y=$("input").val()
+        console.log(y)
+        
+    })
+</script> -->
+
+
+<button id="bt1">start</button>
+<div>
+Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa saepe et alias libero consequatur dolorem.
+</div>
+<script>
+    $(document).ready(function(){
+        // $("#bt1").click(function(){
+        //     // $("div").hide(3000)
+        //     // $("div").show(3000)
+        //     // $("div").toggle(3000)
+        //     // $("div").fadeIn(3000)
+        //     // $("div").fadeOut(3000)
+        //     // $("div").fadeTo(3000)
+        //     // $("div").fadeToggle(3000)
+        //     // $("div").fadeTo(1000,0.5)
+        //     // $("div").slideDown()
+        //     // $("div").slideUp(3000)
+        //     // $("div").slideToggle(3000)
+        //     $("div").animate()
+        //     $("div").delay()
+        // })
+
+        $("div").click(function(){
+           
+            // $(this).animate({
+            //     // "height" : "300px",
+            //     //  "width"  : "300px"
+            //     "left" : "200px"
+
+                
+            // },3000).delay(3000)
+            // .animate({
+            //     "top" : "200px"
+            // },3000).animate({
+            // "left": "0px"
+
+            // },3000).delay(2000)
+            // .animate({
+            //     "top" :"0px"
+            // },3000)
+
+
+
+            // $(this).css({
+            //     'coloer' :'red',
+               
+            //     'font_size' : '200px'
+            // })
+
+
+
+            // $(this).addClass("div1")
+          
+            // $('ul').empty()
+            console.log($(this).height())
+            console.log($(this).width())
+            console.log($(this).innerHeight())
+            console.log($(this).innerWidth())
+            console.log($(this).outerHeight())
+            console.log($(this).outerWidth())
+
+            // console.log($('#sp1').parent())
+            // console.log($('#sp1').children())
+            // console.log($('#sp1').siblings())
+            // console.log($('#sp1').first())
+            // console.log($('#sp1').last())
+            // console.log($('sp1').eq(0))
+
+            $('p').eq(2).css({
+                'color' : 'red'
+            })
+
+
+        })
+    })
+</script>
+    
+</body>
+</html>

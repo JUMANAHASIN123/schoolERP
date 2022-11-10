@@ -17,3 +17,15 @@ def student_cssrules(request):
 
 def student_box(request):
     return render(request,'student/box.html')
+
+def student_box2(request):
+    return render(request,'student/box2.html')
+
+def student_flex(request):
+    return render(request,'student/flex.html')
+
+def student_bootstrap(request):
+    return render(request,'student/bootstrap.html')
+
+def student_response(request):
+    return render(request,'student/respons.html')

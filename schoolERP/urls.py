@@ -21,4 +21,7 @@ urlpatterns = [
     path('schoolAdmin/',include('schoolAdmin.urls')),
     path('teacher/',include('teacher.urls')),
     path('student/',include('student.urls')),
+    path('baabtra/',include('baabtra.urls')),
+    path('netflix/',include('netflix.urls')),
+
 ]

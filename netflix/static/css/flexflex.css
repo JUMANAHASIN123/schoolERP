@@ -1,0 +1,252 @@
+.parent {
+    background-color: #070809;
+    display: flex;
+    flex-direction: auto;
+    flex-wrap: nowrap;
+    flex-basis: auto;
+    height: 280px;
+    width: auto;
+    justify-content: space-around;
+    
+}
+
+#f1{
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    padding: 20px;
+    background-image: url('../images/pic1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+#f2{
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    padding: 20px;
+    background-image: url('../images/pic2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+#f3{
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    padding: 20px;
+    background-image: url('../images/pic3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+#f4{
+    width:300px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    padding: 20px;
+    background-image: url('../images/pic4.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#f5{
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    padding: 20px;
+    background-image: url('../images/pic5.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+#f6{
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    padding: 20px;
+    background-image: url('../images/pic6.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#f7{
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    padding: 20px;
+    background-image: url('../images/pic7.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#f8{
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    padding: 20px;
+    background-image: url('../images/pic8.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#f9{
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    padding: 20px;
+    background-image: url('../images/pic9.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#f10{
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    padding: 20px;
+    background-image: url('../images/pic10.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#f11{
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    padding: 20px;
+    background-image: url('../images/pic11.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#f12{
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    padding: 20px;
+    background-image: url('../images/pic12.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#f13{
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    padding: 20px;
+    background-image: url('../images/pic13.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#f14{
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    padding: 20px;
+    background-image: url('../images/pic14.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#f15{
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    padding: 20px;
+    background-image: url('../images/pic15.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#f16{
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    padding: 20px;
+    background-image: url('../images/pic16.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#f17{
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    padding: 20px;
+    background-image: url('../images/pic17.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#f18{
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    padding: 20px;
+    background-image: url('../images/pic18.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#f19{
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    padding: 20px;
+    background-image: url('../images/pic19.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#f20{
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    padding: 20px;
+    background-image: url('../images/pic20.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}

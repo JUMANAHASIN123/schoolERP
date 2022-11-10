@@ -1,0 +1,35 @@
+from django.urls import path
+from . import views
+
+app_name="baabtra"
+urlpatterns=[
+    path('home',views.baabtra_home),
+    path('baabtra1',views.baabtra1),
+    path('baabtra2',views.baabtra2),
+    path('baabtra3',views.baabtra3),
+    path('largest2',views.largest2),
+    path('largest3',views.largest3),
+    path('sumnumber',views.sumnumber),
+    path('reverse',views.reverse),
+    path('palindrome',views.palindrome),
+    path('largestdigit',views.largest_digit),
+    path('digit',views.numberof_digit),
+    path('pattern1',views.pattern1),
+    path('pattern2',views.pattern2),
+    path('pattern3',views.pattern3),
+    path('pattern4',views.pattern4),
+    path('pattern5',views.pattern5),
+    path('pattern6',views.pattern6),
+    path('programme',views.programme),
+    path('array',views.array),
+    path('dom',views.dom),
+    path('dom2',views.dom2),
+    path('dom3',views.dom3),
+    path('password',views.password),
+    path('calculator',views.calculator),
+    path('jquery',views.jquery),
+    path('product',views.product),
+    path('addproduct',views.addproduct,name="addproduct"),
+    path('viewproduct',views.viewproduct,name="viewproduct"),
+    path('validation',views.validation,name="validation"),
+]

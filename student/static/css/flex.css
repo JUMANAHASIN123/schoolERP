@@ -1,0 +1,99 @@
+.parent {
+    background-color: #1490ef;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex-basis: auto;
+    height: 250px;
+    justify-content: space-around;
+    
+}
+
+
+#f1{
+    width: 150px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    padding: 20px;
+    background-image: url('../images/flo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+#f2{
+    width: 150px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    padding: 20px;
+    background-image: url('../images/rode6.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+#f3{
+    width: 150px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    padding: 20px;
+    background-image: url('../images/ros2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+#f4{
+    width: 150px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    padding: 20px;
+    background-image: url('../images/rose.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#f5{
+    width: 150px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    padding: 20px;
+    background-image: url('../images/rose3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+#f6{
+    width: 150px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    padding: 20px;
+    background-image: url('../images/rose4.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#f7{
+    width: 150px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    padding: 20px;
+    background-image: url('../images/vio.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}

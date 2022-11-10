@@ -42,7 +42,9 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'schoolAdmin',
     'teacher',
-    'student'
+    'student',
+    'baabtra',
+    'netflix'
 ]
 
 MIDDLEWARE = [

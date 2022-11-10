@@ -1,0 +1,204 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="{% static 'bootstrap/css/bootstrap.min.css' %}"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script> 
+  </head>
+<body>
+    <button class="btn btn-warning">click here</button><br /><br/><br />
+    <table class="table table-primary table-hover table-striped">
+        <tr>
+            <th>no</th>
+            <th>name</th>
+            <th>class</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>jumana</td>
+            <td>mca</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>sammu</td>
+            <td>msc</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>vidya</td>
+            <td>mca</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>sunjisha</td>
+            <td>mca</td>
+        </tr>
+    </table><br /><br/><br />
+    <div class="card" style="width: 18rem;">
+        <img src="{% static 'images/ros2.jpg' %}" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+    
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div><br /><br/><br />
+
+      <div class="text-center">
+        <img src="{% static 'images/rose3.jpg' %}" class="rounded w-25" alt="...">
+      </div>
+      <br /><br/><br />
+     <img src="{% static 'images/vio.jpg' %}" class="rounded mx-auto d-block w-25" alt="...">
+     <br /><br/><br />
+     <!-- <div>
+        <img src="{% static 'images/rose3.jpg' %}" class="rounded float-start w-25" alt="...">
+        <img src="{% static 'images/rose3.jpg' %}" class="rounded float-end w-25" alt="...">
+     </div> -->
+     <br /><br/><br />
+     <div class="mb-3 pt-3 bg-primary w-25 "  style="height: 100px;">
+        gukbjbgjugknjnnnnnj
+     </div>
+     <div class="bg-info w-25 "  style="height: 100px;">
+        gukbjbgjugknjnnnnnj
+     </div>   <br /><br/><br />
+     <button class="btn btn-primary"><span class="badge text-">5</span></button>
+     <br /><br/><br />
+     <button type="button" class="btn btn-primary position-relative">
+        Inbox
+        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger text-info">
+          99+
+          <span class="visually-hidden">unread messages</span>
+        </span>
+      </button>
+      <br /><br/><br /><br /><br/><br />
+      <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="{% static 'images/ros2.jpg' %}" class="d-block w-50" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="{% static 'images/rose3.jpg' %}" class="d-block w-50" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="{% static 'images/vio.jpg' %}" class="d-block w-50" alt="...">
+          </div>
+        </div>
+
+
+        <br /><br/><br /><br /><br/><br />
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="{% static 'images/ros2.jpg' %}" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>First slide label</h5>
+                  <p>Some representative placeholder content for the first slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="{% static 'images/rose3.jpg' %}" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Second slide label</h5>
+                  <p>Some representative placeholder content for the second slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="{% static 'images/vio.jpg' %}" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Third slide label</h5>
+                  <p>Some representative placeholder content for the third slide.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <br /><br/><br /><br /><br/><br />
+
+          <div class="spinner-border text-primary" role="status">
+            <span class="visually-hidden">Loading...</span>
+          </div>
+
+          <br /><br/><br /><br /><br/><br />
+
+          <div class="progress">
+            <div class="progress-bar w-75" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+          <br /><br/><br /><br /><br/><br />
+
+          <div class="progress">
+            <div class="progress-bar bg-success" role="progressbar" aria-label="Success example" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+          <div class="progress">
+            <div class="progress-bar bg-info" role="progressbar" aria-label="Info example" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+          <div class="progress">
+            <div class="progress-bar bg-warning" role="progressbar" aria-label="Warning example" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+          <div class="progress">
+            <div class="progress-bar bg-danger" role="progressbar" aria-label="Danger example" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+          <br /><br/><br /><br /><br/><br />
+
+
+          <div class="spinner-grow text-primary" role="status">
+            <span class="visually-hidden">Loading...</span>
+          </div>
+          <div class="spinner-grow text-secondary" role="status">
+            <span class="visually-hidden">Loading...</span>
+          </div>
+          <div class="spinner-grow text-success" role="status">
+            <span class="visually-hidden">Loading...</span>
+          </div>
+          <div class="spinner-grow text-danger" role="status">
+            <span class="visually-hidden">Loading...</span>
+          </div>
+          <div class="spinner-grow text-warning" role="status">
+            <span class="visually-hidden">Loading...</span>
+          </div>
+
+          <br /><br/><br /><br /><br/><br />
+         
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+
+          <select class="form-select" aria-label="Default select example">
+            <option selected>Open this select menu</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select>
+
+          <br /><br/><br /><br /><br/><br />
+          <button type="button" class="btn btn-lg btn-danger example-popover" data-bs-toggle="popover" title="Popover title" data-bs-content="And here's some amazing content. It's very engaging. Right?">Click to toggle popover</button>
+          <script>
+            var popover = new bootstrap.Popover(document.querySelector('.example-popover'), {
+           container: 'body'
+})
+          </script>
+
+<br /><br/><br /><br /><br/><br />
+</body>
+</html>

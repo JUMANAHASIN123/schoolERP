@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="">
+        <input type="text" placeholder="User Name" id="id1"><br /><br /><br />
+        <b id="b1"> </b><br>
+        <input type="mail" placeholder="email" id="id2"><br /><br /><br />
+        <b id="b2"></b><br>
+        <input type="password" placeholder="Password" id="id3"><br /><br /><br />
+        <b id="b3"></b><br>
+        <input type="password" placeholder="conform password" id="id4"><br /><br /><br />
+        <b id="b4"></b><br>
+        <button onclick="return formvalidation()" type="submit">submit</button>
+    </form>
+    <script>
+        function formvalidation() {
+            uname = document.getElementById("id1").value
+            email = document.getElementById("id2").value
+            pass = document.getElementById("id3").value
+            cpass = document.getElementById("id4").value
+            status = 0
+
+            if (uname == '') {
+                document.getElementById("b1").innerHTML = 'user name cant be null'
+                document.getElementById("b1").style.color = 'red'
+                status=1
+            }
+            else {
+                document.getElementById("b1").innerHTML = ""
+            }
+
+            if (email == "") {
+                document.getElementById("b2").innerHTML = "Wrong email id"
+                document.getElementById("b2").style.color = 'red'
+                status=1
+            }
+            else {
+                document.getElementById("b2").innerHTML = ""
+            }
+
+            if (pass.length < 6) {
+                ocument.getElementById("b3").innerHTML = "password too short"
+                document.getElementById("b3").style.color = 'red'
+                status=1
+            }
+            else {
+
+                document.getElementById("b3").innerHTML = ""
+            }
+            if (pass == cpass) {
+                document.getElementById("b4").innerHTML = "password is correct"
+                document.getElementById("b4").style.color = 'red'
+                status=1
+            }
+            else {
+                document.getElementById("b4").innerHTML = " password does not match"
+            }
+            if(status== 1)
+              {
+                return false
+              } 
+            }
+
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+.dd{
+    display: grid;
+
+    grid-template-columns:100px 100px 100px;
+   
+   
+   
+}
+
+/* #box1{
+   
+
+    
+  
+} */
+
+.div1{
+    border: 1px black solid;
+    width: 200px;
+    background-image: url('../images/bell.jpg');
+    background-size: contain;
+}
